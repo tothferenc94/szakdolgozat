@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
-import Welcome from './src/welcome';
+import {View} from 'react-native';
 import {Router, Scene} from 'react-native-router-flux';
+import MainMenu from './src/mainManu';
 
 export default class App extends Component {
   render() {
@@ -8,9 +9,9 @@ export default class App extends Component {
     <Router>
       <Scene key="root">
         <Scene
-          key="fokepernyo"
-          title="kezdokepernyo"
-          component={Welcome}
+          key="menu"
+          title="Menu"
+          component={MainMenu}
           initial
         />
       </Scene>
