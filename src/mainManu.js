@@ -50,12 +50,12 @@ export default class MainMenu extends Component {
 const styles = StyleSheet.create({
     mainStyle : {
         alignItems: 'center',
-        backgroundColor: 'rgb(200, 200, 200)',
+        backgroundColor: 'rgb(220, 220, 220)',
         marginTop: 5,
         borderRadius: 10
     },
     textStyle: {
-       fontSize: 20,
+       fontSize: 30,
        color: 'rgb(200, 100, 100)'
     }
 })
